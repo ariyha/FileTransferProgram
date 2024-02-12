@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Test-1</title>
+</head>
+
+<style>
+    body{
+        background-color: black ;
+        color: white;
+    }
+    div{
+        align-items: center;
+    }
+</style>
+
+<body>
+    <div id="title1">
+        DATA AVAILABLE IN THE SERVER
+    </div>
+
+    <form method="POST" action="#">
+        {% for data in data %}
+        <div id="Data">
+            <input type="radio" name="fname" value={{data}} id={{data}}>
+            <label for = {{data}}>{{data}}</label>
+        </div>
+        {% endfor %}
+        <div id="buttonm">
+            <input type="submit" name="btn">
+        </div>
+    </form>
+
+</body>
