@@ -19,8 +19,8 @@ Ensure you have the following prerequisites installed:
 
 You can install the required Python packages using pip:
 
-```bash
-pip install Flask pycryptodome
+bash
+  pip install Flask pycryptodome
 
 
 ## Setup Instructions
@@ -29,9 +29,9 @@ Configure IP Address: Open the server.py file and enter the appropriate IP addre
 
 Start the Server: Run the server by executing the following command:
 
-'''bash
+bash
 python server.py
-'''
+
 ### 2. Running the Client
 Configure Server IP: Open the client_idea.py file and enter the server's IP address.
 
